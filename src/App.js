@@ -14,10 +14,24 @@ import NotFound from './Views/NotFound';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Footer />
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/blog-home" element={<BlogHome />} />
+          <Route path="/blog-post" element={<BlogPost />} />
+          <Route path="/portfolio-overview" element={<PortfolioOverview />} />
+          <Route path="/portfolio-item" element={<PortfolioItem />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 };
 
