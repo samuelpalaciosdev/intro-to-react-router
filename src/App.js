@@ -10,6 +10,7 @@ import BlogHome from './Views/BlogHome';
 import BlogPost from './Views/BlogPost';
 import PortfolioOverview from './Views/PortfolioOverview';
 import PortfolioItem from './Views/PortfolioItem';
+import NotFound from './Views/NotFound';
 
 const App = () => {
   return (
