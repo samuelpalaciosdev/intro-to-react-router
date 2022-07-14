@@ -1,6 +1,6 @@
 const BlogHome = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Page Content*/}
       <section className="py-5">
         <div className="container px-5">
@@ -258,7 +258,7 @@ const BlogHome = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

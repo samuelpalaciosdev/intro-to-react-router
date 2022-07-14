@@ -1,6 +1,6 @@
 const PortfolioOverview = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       <section className="py-5">
         <div className="container px-5 my-5">
           <div className="text-center mb-5">
@@ -81,7 +81,7 @@ const PortfolioOverview = () => {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

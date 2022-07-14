@@ -1,6 +1,6 @@
 const BlogPost = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Page Content*/}
       <section className="py-5">
         <div className="container px-5 my-5">
@@ -100,7 +100,7 @@ const BlogPost = () => {
                         className="form-control"
                         rows={3}
                         placeholder="Join the discussion and leave a comment!"
-                        defaultValue={''}
+                        defaultValue={""}
                       />
                     </form>
                     {/* Comment with nested comments*/}
@@ -175,7 +175,7 @@ const BlogPost = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

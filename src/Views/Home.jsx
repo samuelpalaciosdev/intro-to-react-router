@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <main className="flex-shrink-0">
+    <>
       {/* Header*/}
       <header className="bg-dark py-5">
         <div className="container px-5">
@@ -301,7 +301,7 @@ const Home = () => {
           </aside>
         </div>
       </section>
-    </main>
+    </>
   );
 };
 

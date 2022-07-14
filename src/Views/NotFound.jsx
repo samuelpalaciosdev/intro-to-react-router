@@ -1,6 +1,6 @@
 const NotFound = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center text-center ">
+    <div className="d-flex justify-content-center align-items-center text-center h-100">
       <h1 className="display-1">
         Page not found
         <br />

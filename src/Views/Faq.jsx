@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Page Content*/}
       <section className="py-5">
         <div className="container px-5 my-5">
@@ -251,7 +251,7 @@ const Faq = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

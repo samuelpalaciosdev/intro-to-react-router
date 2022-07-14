@@ -1,6 +1,6 @@
 const PortfolioItem = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Page Content*/}
       <section className="py-5">
         <div className="container px-5 my-5">
@@ -59,7 +59,7 @@ const PortfolioItem = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

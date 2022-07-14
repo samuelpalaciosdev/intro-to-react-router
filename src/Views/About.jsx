@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <main className="flex-shrink-0">
+    <>
       {/* Header*/}
       <header className="py-5">
         <div className="container px-5">
@@ -127,7 +127,7 @@ const About = () => {
           </div>
         </div>
       </section>
-    </main>
+    </>
   );
 };
 

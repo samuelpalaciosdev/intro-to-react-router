@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Page content*/}
       <section className="py-5">
         <div className="container px-5">
@@ -89,9 +89,9 @@ const Contact = () => {
                       id="message"
                       type="text"
                       placeholder="Enter your message here..."
-                      style={{ height: '10rem' }}
+                      style={{ height: "10rem" }}
                       data-sb-validations="required"
-                      defaultValue={''}
+                      defaultValue={""}
                     />
                     <label htmlFor="message">Message</label>
                     <div
@@ -181,7 +181,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

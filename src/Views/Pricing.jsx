@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div className="flex-shrink-0">
+    <>
       {/* Pricing section*/}
       <section className="bg-light py-5">
         <div className="container px-5 my-5">
@@ -175,7 +175,7 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
